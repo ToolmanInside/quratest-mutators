@@ -6,11 +6,9 @@ import numpy as np
 import random
 from line import Circuit, CNOT_Gate, H_Gate, X_Gate
 from line import *
-from logzero import logger
 from copy import deepcopy
 from rotation import UU_CNOT_UU, UU_NOTC_UU, UU_Cal
 from qiskit.circuit.library import QFT
-import termplotlib as tpl
 # from scipy.optimize import root
 
 class QFTMutator(object):
